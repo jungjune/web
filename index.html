@@ -1,63 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
-		<style>
-			ol{
-				list-style-type:decimal;
+		<script>
+			function AA()
+			{
+				var i;
+				for (i=0;i<10;i++)
+					{
+						document.write(i);
+					}
 			}
-			
-			td{
-				border:1px solid;
-				padding:5px;
-				width:50px;
-				text-align:center;
-			}
-			#cel td{
-				border:1px solid;
-				padding:5px;
-				width:50px;
-				height:50px;
-				text-align:center;
-			}
-		</style>
+		</script>
 	</head>
 	<body>
-		<ol>
-			<li> 첫번째</li>
-			<li>두번째</li>
-		</ol>
-		<table>
-			<tr>
-				<td>!</td><td colspan="3">@</td>
-			</tr>
-			<tr>
-				<td>$</td><td>%</td><td>^</td><td>$</td>
-			</tr>
-			<tr>
-				<td>$</td><td>%</td><td>^</td><td rowspan="2">$</td>
-			</tr>
-			<tr>
-				<td>$</td><td>%</td><td>^</td>
-			</tr>
-		</table>
-		<br>
-		<table id="cel">
-			<tr>
-				<td>Num<br>Lock</td><td>/</td><td>*</td><td>-</td>
-			</tr>
-			<tr>
-				<td>7<br>home</td><td>8<br>↑</td><td>9<br>Pgup</td><td rowspan="2">+</td>
-			</tr>
-			<tr>
-				<td>4<br>←</td><td>5<br> </td><td>6<br>→</td>
-			</tr>
-			<tr>
-				<td>1<br>End</td><td>2<br>↓</td><td>3<br>Pgdn</td><td rowspan="2">Enter</td>
-			</tr>
-			<tr>
-				<td colspan="2" style="text-align:left">0<br>Ins</td><td>.<br>Del</td>
-			</tr>
-		</table>
+		<input type="button" value="button" onclick="AA()">
+		<p id="text">
+			i don't wanna go to school.
+		</p>
 	</body>
-
 </html>
